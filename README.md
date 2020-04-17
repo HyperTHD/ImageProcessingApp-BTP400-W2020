@@ -1,4 +1,4 @@
-# ImageProcessingApp-BTP400-W2020-
+# ImageProcessingApp-BTP400-W2020
 Image Processing Application to compare 2 images based on RGB values (Using ImageJ, and JavaCV libaries along with BufferedImage and ImageIO built-in classes)
 
 Researched topics for the purpose of applied research:
@@ -8,10 +8,13 @@ Researched topics for the purpose of applied research:
 * JavaCV, a Java port of OpenCV, to allow for operations related to Computer Vision
 * BufferedImage and ImageIO libraries 
 
-What's needed to be finished before Week 12 deadline:
+Images must be of the same pixel size, otherwise algorithm used will determine both images to be not the same
 
-* Continue exploration of JavaCV
-* See if similar operations can be accomplished with instance and class methods in the built BufferedImage and ImageIO classes
-* Possible enhancements given enough time
+To Run:
+
+- Compile main java class
+- Run program with minimum of 2 command line arguments, both being the images being compared
+
+There are bugs with this program, but nothing that breaks the program. Will probably return to this project at another point to potentially review and make any changes that are necessary. Submitted on 3/28/2020
 
 
